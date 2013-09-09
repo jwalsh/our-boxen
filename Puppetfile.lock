@@ -14,6 +14,11 @@ GITHUBTARBALL
     dnsmasq (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-emacs
+  specs:
+    emacs (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
     gcc (2.0.1)
@@ -32,6 +37,11 @@ GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
     hub (1.0.3)
+
+GITHUBTARBALL
+  remote: boxen/puppet-iterm2
+  specs:
+    iterm2 (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -82,11 +92,13 @@ DEPENDENCIES
   autoconf (= 1.0.0)
   boxen (= 3.0.2)
   dnsmasq (= 1.0.0)
+  emacs (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
   homebrew (= 1.4.1)
   hub (= 1.0.3)
   inifile (= 1.0.0)
+  iterm2 (= 1.0.0)
   nginx (= 1.4.2)
   nodejs (= 3.2.9)
   openssl (= 1.0.0)
