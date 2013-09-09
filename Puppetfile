@@ -38,6 +38,7 @@ github "iterm2",     "1.0.3"
 github "mysql",      "1.1.5"
 github "pow",        "1.0.0"
 github "clojure",    "1.2.0"
+github "qt",         "1.0.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

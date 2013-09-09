@@ -9,6 +9,11 @@ GITHUBTARBALL
     boxen (3.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-clojure
+  specs:
+    clojure (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.0)
@@ -69,6 +74,11 @@ GITHUBTARBALL
     pow (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-qt
+  specs:
+    qt (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
     repository (2.2.0)
@@ -101,6 +111,7 @@ GITHUBTARBALL
 DEPENDENCIES
   autoconf (= 1.0.0)
   boxen (= 3.0.2)
+  clojure (= 1.2.0)
   dnsmasq (= 1.0.0)
   emacs (= 1.1.0)
   gcc (= 2.0.1)
@@ -114,6 +125,7 @@ DEPENDENCIES
   nodejs (= 3.2.9)
   openssl (= 1.0.0)
   pow (= 1.0.0)
+  qt (= 1.0.1)
   repository (= 2.2.0)
   ruby (= 6.3.4)
   stdlib (= 4.1.0)
