@@ -34,8 +34,10 @@ github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.1.0"
 github "emacs",      "1.1.0"
-github "iterm2",      "1.0.3"
+github "iterm2",     "1.0.3"
 github "mysql",      "1.1.5"
+github "pow",        "1.0.0"
+github "clojure",    "1.2.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

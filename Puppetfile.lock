@@ -64,6 +64,11 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-pow
+  specs:
+    pow (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
     repository (2.2.0)
@@ -108,6 +113,7 @@ DEPENDENCIES
   nginx (= 1.4.2)
   nodejs (= 3.2.9)
   openssl (= 1.0.0)
+  pow (= 1.0.0)
   repository (= 2.2.0)
   ruby (= 6.3.4)
   stdlib (= 4.1.0)
