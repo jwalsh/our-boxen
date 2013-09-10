@@ -41,6 +41,8 @@ github "clojure",    "1.2.0"
 github "qt",         "1.0.1"
 github "memcached",  "1.2.0"
 github "postgresql", "2.0.1"
+github "gpg",        "0.0.4", :repo => "steinim/puppet-gpg"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
