@@ -1,5 +1,4 @@
 class projects::core {
-  include phantomjs
   include chrome
   include firefox
   include skype
