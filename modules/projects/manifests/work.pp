@@ -3,7 +3,6 @@ class projects::work {
     include qt
     include pow
     include mysql
-    include chruby
     include nodejs::v0_10
 
   boxen::project { 'work':
