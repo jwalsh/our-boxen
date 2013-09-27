@@ -9,6 +9,7 @@ class projects::core {
   include omnigraffle
   include zshgitprompt
   include charles 
+  include nodejs::v0_10
 
   boxen::project { 'core':
     dotenv        => true,
@@ -16,4 +17,9 @@ class projects::core {
     nginx         => true,
     ruby          => '1.9.3'
   }
+
+  nodejs::module { ['coffee-script', 'meteorite', 'grunt-cli']:
+    node_version => 'v0.10'
+  }
+
 }
