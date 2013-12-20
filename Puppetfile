@@ -34,7 +34,7 @@ github "boxen", "3.3.4"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "dnsmasq",    "1.0.0"
+# github "dnsmasq",    "1.0.0"
 github "foreman",    "1.0.0"
 github "gcc",        "2.0.1"
 github "git",        "1.2.5"
@@ -52,16 +52,28 @@ github "ruby",       "6.7.2"
 github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.1.0"
-github "emacs",      "1.1.0"
-github "iterm2",     "1.0.3"
-github "mysql",      "1.1.5"
-github "pow",        "1.0.0"
-github "clojure",    "1.2.0"
-github "qt",         "1.0.1"
-github "memcached",  "1.2.0"
-github "postgresql", "2.0.1"
-github "gpg",        "0.0.4", :repo => "steinim/puppet-gpg"
+
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+# Utilities
+github "dropbox",    "1.2.0"
+github "emacs",      "1.1.0"
+github "firefox",    "1.1.7"
+github "gpg",        "0.0.4", :repo => "steinim/puppet-gpg"
+github "hipchat",    "1.1.0"
+github "iterm2",     "1.0.3"
+github "onepassword", "1.1.0"
+github "skype",      "1.0.7"
+
+# Development
+github "android",    "1.1.0"
+github "clojure",    "1.2.0"
+github "java",       "1.1.0"
+github "memcached",  "1.2.0"
+github "mysql",      "1.1.5"
+github "postgresql", "2.0.1"
+github "pow",        "1.0.0"
+github "qt",         "1.0.1"
 
