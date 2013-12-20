@@ -5,6 +5,7 @@ class projects::work {
     boxen::project { 'work':
       mysql         => true,
       nginx         => true,
+      clojure       => true,
       source        => 'jwalsh/cloaked-happiness-robo'
     }
 

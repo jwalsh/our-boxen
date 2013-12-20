@@ -70,7 +70,8 @@ github "zsh",        "1.0.0"
 
 # Development
 github "android",    "1.1.0"
-github "clojure",    "1.2.0"
+# Fails if more recent of JDK installed
+# github "clojure",    "1.2.0"
 github "java",       "1.1.0"
 github "memcached",  "1.2.0"
 github "mysql",      "1.1.5"

@@ -1,11 +1,13 @@
 class projects::work {
 
-    include clojure
+    include mysql
+    include pow
 
     boxen::project { 'work':
       mysql         => true,
       nginx         => true,
-      source        => 'jwalsh/cloaked-happiness-robo'
+      ruby          => '1.9.3',
+      source        => 'jwalsh/rails_bootcamp'
     }
 
     nodejs::module { ['coffee-script', 'meteorite']:

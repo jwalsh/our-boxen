@@ -1,6 +1,6 @@
 class people::jwalsh {
 
-    notify { 'jwalsh init': }
+    notify { 'jwalsh initializing...': }
     
     case $::hostname {
 
