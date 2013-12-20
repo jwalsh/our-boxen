@@ -9,7 +9,7 @@ class people::jwalsh {
         }
         
         default: {
-          notify { "Wha?": }
+          notify { "Generic environment": }
         }
       }
 
@@ -17,6 +17,7 @@ class people::jwalsh {
       include projects::work
       include emacs
       include gpg
+      include onepassword
       include zsh
 
     }
