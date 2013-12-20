@@ -45,7 +45,7 @@ How do you do it?
 
 ### Bootstrapping
 
-Create a **new** git repository somewhere.
+Create a **new** git repository somewhere on the internet.
 It can be private or public -- it really doesn't matter.
 If you're making a repository on GitHub, you _may not_ want to fork this repo
 to get started.
@@ -64,6 +64,18 @@ git remote rm origin
 git remote add origin <the location of my new git repository>
 git push -u origin master
 ```
+
+Now that your boxen is bootstrapped, you can run the following to
+install the default configuration from this repo:
+
+```
+cd /opt/boxen/repo
+script/boxen
+```
+
+You can also skip the above steps and <a href="#customizing">customize your
+boxen</a> before installing it.
+
 
 ### Distributing
 
