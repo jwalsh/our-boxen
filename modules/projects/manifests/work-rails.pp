@@ -1,17 +1,13 @@
-class projects::work {
+class projects::work-rails {
 
     include mysql
     include pow
 
-    boxen::project { 'work':
+    boxen::project { 'work-rails':
       mysql         => true,
       nginx         => true,
       ruby          => '1.9.3',
-      source        => 'jwalsh/rails_bootcamp'
-    }
-
-    nodejs::module { ['coffee-script', 'meteorite']:
-      node_version => 'v0.10'
+      source        => 'boxen/boxen-web'
     }
 
   }

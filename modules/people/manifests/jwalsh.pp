@@ -14,7 +14,11 @@ class people::jwalsh {
       }
 
       include boxen::development
-      include projects::work
+      # include projects::core
+      include projects::work-clojure
+      # include projects::work-node
+      include projects::work-rails
+
       include emacs
       include gpg
       include onepassword

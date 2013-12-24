@@ -1,6 +1,7 @@
 class projects::core {
   include chrome
   include firefox
+  include opera
   include skype
   include evernote
   include item2
@@ -16,10 +17,6 @@ class projects::core {
     mysql         => true,
     nginx         => true,
     ruby          => '1.9.3'
-  }
-
-  nodejs::module { ['coffee-script', 'meteorite', 'grunt-cli']:
-    node_version => 'v0.10'
   }
 
 }
