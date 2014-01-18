@@ -68,6 +68,7 @@ github "iterm2",     "1.0.3"
 github "onepassword", "1.1.0"
 github "skype",      "1.0.7"
 github "zsh",        "1.0.0"
+github "ohmyzsh",    "1.0.0", :repo => "samjsharpe/puppet-ohmyzsh"
 
 # Development
 github "android",    "1.1.0"

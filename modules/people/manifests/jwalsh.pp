@@ -23,5 +23,6 @@ class people::jwalsh {
       include gpg
       include onepassword
       include zsh
+      include ohmyzsh
 
     }
