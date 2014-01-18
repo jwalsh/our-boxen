@@ -9,6 +9,11 @@ GITHUBTARBALL
     boxen (3.3.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-charles
+  specs:
+    charles (1.0.3)
+
+GITHUBTARBALL
   remote: boxen/puppet-clojure
   specs:
     clojure (1.2.0)
@@ -16,7 +21,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
-    dnsmasq (1.0.0)
+    dnsmasq (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
@@ -191,8 +196,9 @@ GITHUBTARBALL
 DEPENDENCIES
   android (= 1.1.0)
   boxen (= 3.3.4)
+  charles (= 1.0.3)
   clojure (= 1.2.0)
-  dnsmasq (= 1.0.0)
+  dnsmasq (= 1.0.1)
   dropbox (= 1.2.0)
   emacs (= 1.1.0)
   firefox (= 1.1.7)
@@ -222,6 +228,7 @@ DEPENDENCIES
   qt (= 1.0.1)
   repository (= 2.2.0)
   ruby (= 6.7.2)
+  skype (= 1.0.7)
   skype (= 1.0.7)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)

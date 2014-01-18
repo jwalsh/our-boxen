@@ -7,10 +7,15 @@ class people::jwalsh {
         'Jasons-MacBook-Pro-2.local': {
           notify { "Defaulting development environment": }
         }
+
+        'jason-walshs-macbook-pro.local': {
+          notify { "Booster": }
+        }
         
         default: {
           notify { "Generic environment": }
         }
+
       }
 
       include boxen::development
@@ -24,5 +29,9 @@ class people::jwalsh {
       include onepassword
       include zsh
       include ohmyzsh
+      # include hipchat
+      include dropbox
+      # include charles
+      include firefox
 
     }
