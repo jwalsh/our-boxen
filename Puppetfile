@@ -60,7 +60,7 @@ github "xquartz",    "1.1.0"
 # Utilities
 github "osx",        "2.2.2"
 github "dropbox",    "1.2.0"
-github "emacs",      "1.1.0"
+github "emacs",      "1.1.0", :repo => "jwalsh/puppet-emacs"
 github "firefox",    "1.1.7"
 github "gpg",        "0.0.4", :repo => "steinim/puppet-gpg"
 github "hipchat",    "1.1.0"

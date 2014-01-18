@@ -29,11 +29,6 @@ GITHUBTARBALL
     dropbox (1.2.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-emacs
-  specs:
-    emacs (1.1.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
     firefox (1.1.7)
@@ -172,6 +167,11 @@ GITHUBTARBALL
   remote: boxen/puppet-zsh
   specs:
     zsh (1.0.0)
+
+GITHUBTARBALL
+  remote: jwalsh/puppet-emacs
+  specs:
+    emacs (1.1.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
